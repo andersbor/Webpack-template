@@ -10,9 +10,9 @@ You need a recent installation of Node on your computer... and git if you want t
 
 ### Installing
 You can either download this project or clone it from github: yo ucan use this command to clone it and give it a new name
-(replace "fancy project" with your own name...)
+(replace "new-project-based-on-the-webpack-template" with your own name...)
 ```console
-git clone https://github.com/dimselab/Webpack-template new-fancy-project-based-on-the-webpack-template
+git clone https://github.com/dimselab/Webpack-template new-project-based-on-the-webpack-template
 ```
 
 move into your newly created folder and install all dependencies (node modules)
@@ -36,4 +36,4 @@ npm run webpack:prod
 That will minify your code and make is production ready
 
 ### Author
-Ebbe Vang
+Ebbe Vang and Anders Børjesson

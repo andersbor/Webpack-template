@@ -1,7 +1,7 @@
 /*
   A webpack configuration file designed
   for webdevelopment with typescript and scss
-  by Ebbe Vang, evang.dk
+  by Ebbe Vang, evang.dk and Anders Børjesson, anbo-easj.dk
 */
 
 const path = require('path');
@@ -29,7 +29,6 @@ module.exports = {
           name: '[name].[ext]'
         }
       }
-      
     },
 
     ]
