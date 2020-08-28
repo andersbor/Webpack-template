@@ -9,21 +9,19 @@
     "watch": "node_modules\\.bin\\webpack --mode=development --watch",
     "serve": "node_modules\\.bin\\http-server dist/ -g -o"
   },
-  "author": "Ebbe Vang, evang.dk",
+  "author": "Ebbe Vang, evang.dk, Anders Børjesson, anbo-easj.dk",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.26.12",
     "browser-sync-webpack-plugin": "^2.2.2",
-    "css-loader": "^1.0.0",
-    "extract-loader": "^2.0.1",
-    "file-loader": "^1.1.11",
-    "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
+    "css-loader": "^4.2.2",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.0.0",
     "source-map": "^0.7.3",
-    "style-loader": "^0.22.1",
-    "ts-loader": "^4.4.2",
-    "typescript": "^3.0.1",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }

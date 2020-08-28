@@ -1,12 +1,21 @@
-interface Person {
-    firstName: string;
-    lastName: string;
-}
-
-function greeter(person: Person): string {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-let user: Person = { firstName: "John", lastName: "Doe" };
-
-let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content");
-element.innerHTML = greeter(user);
+new Vue({
+    // Compiler complains about Vue because the CDN link to Vue is in the html file.
+    // Before the application runs this TypeScript file will be compiled into bundle.js
+    // which is included at the bottom of the html file.
+    el: "#app",
+    data: {
+        name: "",
+        greeting: ""
+    },
+    methods: {
+        sayHello() {
+            console.log("Say Hello " + this.name)
+            if (this.name == "") {
+                this.greeting = "Hello NoName"
+            }
+            else {
+                this.greeting = "Hello " + this.name
+            }
+        }
+    }
+})
